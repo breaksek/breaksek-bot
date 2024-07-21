@@ -15,11 +15,11 @@ global.author = 'breaksek-bot'
 global.maxwarn = '2' // Peringatan maksimum
 
 //INI WAJIB DI ISI!//
-global.lann = 'YOUR_APIKEY_HERE' 
+global.lann = 'tu7EerQU' 
 //Daftar terlebih dahulu https://api.betabotz.eu.org
 
 //INI OPTIONAL BOLEH DI ISI BOLEH JUGA ENGGA//
-global.btc = 'YOUR_APIKEY_HERE'
+global.btc = 'ZxqvhBXp'
 //Daftar https://api.botcahx.eu.org 
 
 global.APIs = {   
