@@ -180,14 +180,7 @@ text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ?
         }),
         nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
           buttons: [
-            {
-              "name": "cta_url",
-              "buttonParamsJson": JSON.stringify({
-                display_text: "Api",
-                url: 'https://api.betabotz.eu.org',
-                merchant_url: 'https://api.betabotz.eu.org'
-              })
-            },
+            {},
           ],
         })
       })
