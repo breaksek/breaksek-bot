@@ -31,7 +31,7 @@ async function startServer() {
       const data = {
         status: 'true',
         message: 'Bot Successfully Activated!',
-        author: 'BETABOTZ'
+        author: 'breaksek'
       };
       const result = {
         response: data
