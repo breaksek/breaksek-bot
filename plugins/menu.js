@@ -157,7 +157,7 @@ text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ?
       level, limit, name, weton, week, date, dateIslamic, wib, wit, wita, time, totalreg, rtotalreg, role
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    let media = await prepareWAMessageMedia({ image: { url: 'https://telegra.ph/file/3a34bfa58714bdef500d9.jpg' } }, { upload: conn.waUploadToServer });
+    let media = await prepareWAMessageMedia({ image: { url: 'https://btch.pages.dev/file/7839135016d098a11bd48.jpg' } }, { upload: conn.waUploadToServer });
     let msg = generateWAMessageFromContent(m.chat, {
   viewOnceMessage: {
     message: {
