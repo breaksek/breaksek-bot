@@ -52,7 +52,7 @@ I am an automated system (WhatsApp Bot) that can help to do something, search an
  
 ┌  ◦ Uptime : %uptime
 │  ◦ Hari : %week %weton
-│  ◦ Waktu : %time
+│  ◦ Jam : %time
 │  ◦ Tanggal : %date
 │  ◦ Version : %version
 └  ◦ Prefix Used : *[ %p ]*
