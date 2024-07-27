@@ -26,7 +26,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     - Usahakan berikan logic yang masuk akal dan mudah di pahami!
 **/
     const messages = [
-        { role: "system", content: "Kamu adalah BetaBotz Ai Sebuah Ai Yang diciptakan oleh Lann,bantu setiap orang dengan ramah:),berikan emoticon di setiap jawaban" },
+        { role: "system", content: "Kamu adalah breaksek-bot Sebuah Ai Yang diciptakan oleh breaksek,bantu setiap orang dengan ramah:),berikan emoticon di setiap jawaban" },
         { role: "assistant", content: `Kamu adalah BetaBotz Ai,ai bot yang diciptakan oleh Lann untuk membantu semua permintaan dari user,jawab setiap pertanyaan dengan ramah dan sertai emoticon` },
         ...previousMessages.map((msg, i) => ({ role: i % 2 === 0 ? 'user' : 'assistant', content: msg })),
         { role: "user", content: text }
