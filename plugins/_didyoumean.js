@@ -1,5 +1,3 @@
-// Thanks To Kasan
-
 let didyoumean = require('didyoumean')
 let similarity = require('similarity')
 
@@ -19,18 +17,18 @@ handler.before = function (m, { match, usedPrefix, text, args }) {
  ◦ Nama menu: *${usedPrefix + mean}* 
  ◦ Kempiripan: *${parseInt(som)}%*`
 	 if (mean) this.relayMessage(m.chat,  {
-    requestPaymentMessage: {
-      currencyCodeIso4217: 'IDR',
-      requestFrom: '0@s.whatsapp.net',
-      noteMessage: {
-      extendedTextMessage: {
-      text: tio,
-      contextInfo: {
-      mentionedJid: [m.sender],
-      externalAdReply: {
-      showAdAttribution: true
-      }}}}}}, {})
+		 requestPaymentMessage: {
+			 currencyCodeIso4217: 'IDR',
+			 requestFrom: '0@s.whatsapp.net',
+			 noteMessage: {
+				 extendedTextMessage: {
+					 text: breaksek,
+					 contextInfo: {
+						 mentionedJid: [m.sender],
+						 externalAdReply: {
+							 showAdAttribution: true
+						 }}}}}}, {})
 	}
-  }
+}
 
 module.exports = handler
