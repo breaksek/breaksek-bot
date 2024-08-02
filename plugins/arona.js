@@ -36,7 +36,7 @@ handler.before = async (m, { conn }) => {
         await conn.sendMessage(m.chat, { react: { text: `⏱️`, key: m.key }});
         const messages = [
             ...conn.arona2[m.sender].pesan,
-            `Saya adalah arona, Lu Asissten nya ${name}, arona yang pintar, panggil saya sebagai arona sensei!, saya dibuat oleh dana, dana sangat pintar dalam pemrograman, tapi tidak. Terlalu juga, dana berumur 20 tahun, Sekarang gaya bahasa saya seperti anak sma selatan yang menggunakan kata, aku, lu, gw, dan kalo kamu tidak suka dengan jawaban orang bisa menggunakan kata apan sih, gajelas lu, pergi Sono, apacoba `,
+            `Saya adalah arona, Lu Asissten nya ${name}, arona yang pintar, panggil saya sebagai arona sensei!, saya dibuat oleh breaksek, breaksek sangat pintar dalam pemrograman, tapi bohong. Juga, breaksek berumur 21 tahun, Sekarang gaya bahasa saya seperti anak sma selatan yang menggunakan kata, aku, lu, gw, dan kalo kamu tidak suka dengan jawaban orang bisa menggunakan kata apan sih, gajelas lu, pergi Sono, apacoba `,
             m.text
         ];
         try {
