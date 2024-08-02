@@ -22,7 +22,7 @@ handler.before = function (m, { match, usedPrefix, text, args }) {
 			 requestFrom: '0@s.whatsapp.net',
 			 noteMessage: {
 				 extendedTextMessage: {
-					 text: breaksek,
+					 text: tio,
 					 contextInfo: {
 						 mentionedJid: [m.sender],
 						 externalAdReply: {
