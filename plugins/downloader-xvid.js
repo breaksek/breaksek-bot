@@ -14,6 +14,6 @@ conn.sendMessage(m.chat, { video: { url: hasil.result.url }, fileName: 'xnxx.mp4
 throw `*Server Error!*`
 }
   }                                                    
-handler.command = handler.help = ['xvideosdown','xdown'];
+handler.command = handler.help = ['xvideosdown','xdown','xvid'];
 handler.tags = ['internet'];
 module.exports = handler;
