@@ -21,7 +21,7 @@ handler.help = ['tikdl'];
 handler.command = /^(tikdl)$/i;
 handler.tags = ['downloader'];
 handler.limit = true;
-handler.group = false;
+handler.group = true;
 handler.premium = false;
 
 module.exports = handler;
